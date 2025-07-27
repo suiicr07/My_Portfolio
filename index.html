@@ -1,0 +1,634 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--=============== FONT AWESOME ===============-->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+
+      <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="styles.css" />
+<script type="text/javascript">
+   (function(){
+      emailjs.init({
+        publicKey: "J1RMAIeSC1g77lTGm",
+      });
+   })();
+</script>
+</head>
+<body>
+     <title> portfolio website </title>
+</head>
+
+<body>
+    <!--==================== STYLE SWITCHER ====================-->
+    <input type="radio" name="color" id="color-1" />
+    <input type="radio" name="color" id="color-2" />
+    <input type="radio" name="color" id="color-3" />
+    <input type="radio" name="color" id="color-4" />
+    <input type="radio" name="color" id="color-5" />
+    <input type="radio" name="color" id="color-6" />
+    <input type="radio" name="color" id="color-7" />
+    <input type="radio" name="color" id="color-8" />
+    <input type="radio" name="color" id="color-9" />
+    <input type="radio" name="color" id="color-10" />
+    <input type="checkbox" id="toggler" />
+    <input type="checkbox" id="day-night" />
+
+
+    <div class="style__switcher">
+        <label for="toggler" class="style__switcher-toggler">
+        <i class="fa-solid fa-gear fa-spin"></i>
+      </label>
+
+        <label for="day-night" class="style__switcher-theme">
+        <i class="fa-solid fa-sun"></i>
+        <i class="fa-solid fa-moon"></i>
+      </label>
+
+        <h3 class="style__switcher-title">Theme Colors</h3>
+
+        <div class="style__switcher-colors">
+            <label for="color-1" class="color-1 color"></label>
+            <label for="color-2" class="color-2 color"></label>
+            <label for="color-3" class="color-3 color"></label>
+            <label for="color-4" class="color-4 color"></label>
+            <label for="color-5" class="color-5 color"></label>
+            <label for="color-6" class="color-6 color"></label>
+            <label for="color-7" class="color-7 color"></label>
+            <label for="color-8" class="color-8 color"></label>
+            <label for="color-9" class="color-9 color"></label>
+            <label for="color-10" class="color-10 color"></label>
+        </div>
+    </div>
+
+    <!--==================== HEADER ====================-->
+    <header class="header">
+        <nav class="nav container">
+            <a href="index.html" class="nav__logo">SEKH MAINUL HASSAN</a>
+
+            <input type="checkbox" id="nav__toggler">
+            <label for="nav__toggler" class="nav__toggle">
+        <i class="fa-solid fa-bars"></i>
+        </label>
+
+            <ul class="nav__list">
+                <li class="nav__item">
+                    <a href="#home" class="nav__link active-link">Home</a>
+                </li>
+
+                <li class="nav__item">
+                    <a href="#about" class="nav__link">About</a>
+                </li>
+
+                <li class="nav__item">
+                    <a href="#qualification" class="nav__link">Experience</a>
+                </li>
+
+                <li class="nav__item">
+                    <a href="#services" class="nav__link">Services</a>
+                </li>
+
+                <li class="nav__item">
+                    <a href="#work" class="nav__link">Portfolio</a>
+                </li>
+
+                <li class="nav__item">
+                    <a href="#contact" class="nav__link">Contact</a>
+                </li>
+            </ul>
+
+        </nav>
+    </header>
+
+    <!--==================== MAIN ====================-->
+    <main class="main">
+        <!--==================== HOME ====================-->
+        <section class="home" id="home">
+            <div class="home__container container grid">
+                <div class="home__content">
+                    <span class="home__small">Hello</span>
+                    <h1 class="home__title">
+                        <span>I'm</span> SEKH MAINUL HASSAN
+                        </span>
+                    </h1>
+
+                    <p class="home__description">
+                        Seeking a challenging position in a reputed organization where I can learn new skills, expand my knowledge, and leverage my learnings
+                    </p>
+
+                    <div class="home__btns">
+                        <a href="#contact" class="btn">Hire Me</a>
+                        <a href="#work" class="btn btn--transparent">Portfolio</a>
+                    </div>
+                </div>
+
+                <div class="home__img--wrapper">
+                    <img src="img/profile.png" alt="" class="home__img" />
+                </div>
+            </div>
+        </section>
+
+        <!--==================== ABOUT ====================-->
+        <section class="about section" id="about">
+            <div class="about__container container grid">
+                <div class="home__img--wrapper">
+                    <img src="img/profile.png" alt="" class="home__img" />
+                </div>
+                <div class="about__content">
+                    <h2 class="section__title" data-title="Who am I ?">
+                        I'm Sekh Mainul Hassan, a visual UI/UX Designer and Web Designer
+                    </h2>
+                    <p class="about__description">
+                        Seeking a challenging position in a reputed organization where I can learn new skills, expand my knowledge, and leverage my learnings
+                    </p>
+                    <ul class="about__data grid">
+                        <li class="data__item">
+                            <h3 class="data__title">Name:</h3>
+                            <span class="data__description">Sekh Mainul Hassan</span>
+                        </li>
+
+                        <li class="data__item">
+                            <h3 class="data__title">Age:</h3>
+                            <span class="data__description">21 Years</span>
+                        </li>
+
+                        <li class="data__item">
+                            <h3 class="data__title">From</h3>
+                            <span class="data__description">Purba Bardhaman, West Bengal, INDIA</span>
+                        </li>
+
+                        <li class="data__item">
+                            <h3 class="data__title">Email</h3>
+                            <a href="mailto:sekhmainulhassan.work@gmail.com" class="data__description about__link">sekhmainulhassan.work@gmail.com</a>
+                        </li>
+                    </ul>
+
+                    <div class="about__bottom">
+                        <a href="pdf/UI_UX Designer.pdf" class="btn">Download CV</a>
+
+                        <div class="about__social-links">
+                            <a href="https://github.com/suiicr07" class="about__social-link">
+                  <i class="fa-brands fa-github"></i>
+                </a>
+
+                            <a href="https://www.instagram.com/sekh_mainul_hassan09/" class="about__social-link">
+                  <i class="fa-brands fa-instagram"></i>
+                </a>
+
+                            <a href="https://www.facebook.com/skmoinul.hassan.39" class="about__social-link">
+                  <i class="fa-brands fa-square-facebook"></i>
+                </a>
+
+                            <a href="https://www.linkedin.com/in/sekh-mainul-hassan-56a054377/" class="about__social-link">
+                  <i class="fa-brands fa-linkedin"></i>
+                </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--==================== QUALIFICATION ====================-->
+        <section class="qualification section" id="qualification">
+            <h2 class="section__title title-center" data-title="My Journey">Qualification</h2>
+
+            <div class="resume__container container grid">
+                <div class="resume__group">
+                    <h3 class="resume__heading">Education</h3>
+
+                    <div class="resume__items">
+
+                        <div class="resume__item">
+                            <div class="resume__header">
+                                <h3 class="resume__subtitle">Netaji Mahavidyalaya, Hooghly, West Bengal</h3>
+                                <span class="resume__icon">+</span>
+                            </div>
+
+                            <div class="resume__content">
+                                <div class="resume__data-title">
+                                    <h3 class="resume__title">Bachelor Of Computer applications</h3>
+                                    <span class="resume__date">2022 - 2025</span>
+                                </div>
+                                <p class="resume__description">
+                                    <br/>
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="resume__item">
+                            <div class="resume__header">
+                                <h3 class="resume__subtitle">Sehara Bazar C.K. Institution, Purba Bardhaman, West Bengal</h3>
+                                <span class="resume__icon">-</span>
+                            </div>
+
+                            <div class="resume__content">
+                                <div class="resume__data-title">
+                                    <h3 class="resume__title">Higher Secondary Education (XII)</h3>
+                                    <span class="resume__date">2020 – 2022</span>
+                                </div>
+                                <p class="resume__description">
+                                     <br/>
+                                    <br/>
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="resume__item">
+                            <div class="resume__header">
+                                <h3 class="resume__subtitle">TIGPS Burdwan South, Purba Bardhaman, West Bengal</h3>
+                                <span class="resume__icon">+</span>
+                            </div>
+
+                            <div class="resume__content">
+                                <div class="resume__data-title">
+                                    <h3 class="resume__title">Secondary Education (X)</h3>
+                                    <span class="resume__date">2019 – 2020</span>
+                                </div>
+                                <p class="resume__description">
+                                   <br>
+                                </p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="resume__group">
+                    <h3 class="resume__heading">Projects</h3>
+
+                    <div class="resume__items">
+
+                        <div class="resume__item">
+                            <div class="resume__header">
+                                <a href="https://www.behance.net/gallery/230388763/FC-Barcelona-202526-Website-design-Concept" class="resume__subtitle">
+                                    <h3>Project 1</h3>
+                                </a>
+                                <span class="resume__icon">+</span>
+                            </div>
+
+                            <div class="resume__content">
+                                <div class="resume__data-title">
+                                    <a href="https://sreeteqservices.vercel.app/index" class="resume__title">
+                                        <h3>FC Barcelona Website design Concept</h3>
+                                    </a>
+                                </div>
+                                <p class="resume__description">
+                                    <a href="https://www.behance.net/gallery/230388763/FC-Barcelona-202526-Website-design-Concept">Behance</a>
+                                    <a href="https://www.figma.com/design/bPWGyd43GwvFwNr9Tqo6yE/FC-Barcelona?node-id=0-1&t=iAVLKqS6R7so2aVX-1">Figma</a>
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="resume__item">
+                            <div class="resume__header">
+                                <a href="https://www.behance.net/gallery/230252073/Electronic-Vehicle-%28EV-B%29" class="resume__subtitle">
+                                    <h3>Project 2</h3>
+                                </a>
+                                <span class="resume__icon">-</span>
+                            </div>
+
+                            <div class="resume__content">
+                                <div class="resume__data-title">
+                                    <a href="https://www.behance.net/gallery/230252073/Electronic-Vehicle-%28EV-B%29" class="resume__title">
+                                        <h3>EV - B</h3>
+                                    </a>
+                                </div>
+                                <p class="resume__description">
+                                    <a href="https://www.behance.net/gallery/230252073/Electronic-Vehicle-%28EV-B%29">Behance</a>
+                                    <a href="https://www.figma.com/design/l9m9vqJ8tta7LWnQKDCv3c/EV---B?node-id=0-1&t=I4iCCLtwhcs9BpNX-1">Figma</a>
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="resume__item">
+                            <div class="resume__header">
+                                <a href="https://github.com/saiganesh113/Full_stack_fresher.github.io.git" class="resume__subtitle">
+                                    <h3>Project 3</h3>
+                                </a>
+                                <span class="resume__icon">-</span>
+                            </div>
+
+                            <div class="resume__content">
+                                <div class="resume__data-title">
+                                    <a href="https://www.behance.net/gallery/230299625/Interactive-Dominos-Landing-Page" class="resume__title">
+                                        <h3>Interactive Dominos Landing Page</h3>
+                                        </h3>
+                                    </a>
+                                </div>
+                                <p class="resume__description">
+                                    <a href="https://www.behance.net/gallery/230299625/Interactive-Dominos-Landing-Page">Behance</a>
+                                    <a href="https://www.figma.com/design/4TJ1OurkBtvavjwaR18RRB/Dominos-Landing-Page?node-id=0-1&t=tCkElPaJ9fWQattI-1">Figma</a>
+                                </p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!--==================== SERVICES ====================-->
+        <section class="services section" id="services">
+            <h2 class="section__title title-center" data-title="Services">What I done For you</h2>
+
+            <div class="Services__container container grid">
+                <div class="services__item">
+                    <i class="fa-solid fa-pen-to-square  services__icon"></i>
+                    <h3 class="services__title">UI/UX Design</h3>
+                    <p class="services__description">Designed intuitive UI/UX interfaces, focusing on user-centric design principles to optimize usability and satisfaction</p>
+                    <span class="services__no">01</span>
+                </div>
+
+                <div class="services__item">
+                    <i class="fa-solid fa-laptop services__icon"></i>
+                    <h3 class="services__title">Web Developer</h3>
+                    <p class="services__description">Crafting digital experiences, one line of code at a time, to shape the future of the web.</p>
+                    <span class="services__no">02</span>
+                </div>
+
+                <div class="services__item">
+                    <i class="fa-solid fa-paint-brush  services__icon"></i>
+                    <h3 class="services__title">Web Design</h3>
+                    <p class="services__description">Transforming visions into captivating digital landscapes, where creativity meets functionality.</p>
+                    <span class="services__no">03</span>
+                </div>
+
+                <div class="services__item">
+                    <i class="fa-solid fa-camera  services__icon"></i>
+                    <h3 class="services__title">Photoedit</h3>
+                    <p class="services__description">Capturing moments, shaping memories, and painting stories with light – this is the artistry of photography.</p>
+                    <span class="services__no">04</span>
+                </div>
+
+                <div class="services__item">
+                    <i class="fa-solid fa-video  services__icon"></i>
+                    <h3 class="services__title">Video Editor</h3>
+                    <p class="services__description">Skilled in video editing techniques, ensuring high-quality productions through precise cuts, color correction, and captivating storytelling.</p>
+                    <span class="services__no">05</span>
+                </div>
+
+                <!--<div class="services__item">
+                    <i class="fa-solid fa-chart-area  services__icon"></i>
+                    <h3 class="services__title">Product Strategy</h3>
+                    <p class="services__description">Elevating products from conception to success with strategic insight and meticulous planning.</p>
+                    <span class="services__no">06</span>
+                </div>-->
+            </div>
+        </section>
+
+        <!--==================== SKILLS ====================-->
+        <section class="skills section">
+            <h2 class="section__title title-center" data-title="MY TALENT">Professional Skills</h2>
+
+            <div class="skills__container container grid">
+                <div class="skills__item">
+                    <div class="skills__titles">
+                        <h3 class="skills__name">HTML</h3>
+                        <span class="skills__no">85 %</span>
+                    </div>
+
+                    <p class="skills__description">leveraging markup language expertise to develop responsive and accessible web content and development.
+                    </p>
+
+                    <div class="skills__bar">
+                        <div class="skills__percentage" style="width: 85%;">
+                            <span></span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skills__item">
+                    <div class="skills__titles">
+                        <h3 class="skills__name">CSS</h3>
+                        <span class="skills__no">80 %</span>
+                    </div>
+
+                    <p class="skills__description">adept at styling and layout techniques to create visually appealing and responsive web design and developement</p>
+
+                    <div class="skills__bar">
+                        <div class="skills__percentage" style="width: 80%;">
+                            <span></span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skills__item">
+                    <div class="skills__titles">
+                        <h3 class="skills__name">Figma</h3>
+                        <span class="skills__no">80 %</span>
+                    </div>
+
+                    <p class="skills__description">Proficient in using Figma for designing user interfaces with a strong grasp of layout and prototyping tools and create stunning designes</p>
+
+                    <div class="skills__bar">
+                        <div class="skills__percentage" style="width: 70%;">
+                            <span></span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skills__item">
+                    <div class="skills__titles">
+                        <h3 class="skills__name">Photoshop</h3>
+                        <span class="skills__no">40 %</span>
+                    </div>
+
+                    <p class="skills__description">Learning new things continuously to integrate in my skills with editing and also trying new designes every day for fun.
+                    </p>
+
+                    <div class="skills__bar">
+                        <div class="skills__percentage" style="width: 80%;">
+                            <span></span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skills__item">
+                    <div class="skills__titles">
+                        <h3 class="skills__name">Premiere Pro</h3>
+                        <span class="skills__no">50 %</span>
+                    </div>
+
+                    <p class="skills__description">With every day life trying to learn new skills and this is one of the things that i like doing in my free time and relax from everyday wotk.</p>
+
+                    <div class="skills__bar">
+                        <div class="skills__percentage" style="width: 85%;">
+                            <span></span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skills__item">
+                    <div class="skills__titles">
+                        <h3 class="skills__name">Java</h3>
+                        <span class="skills__no">60 %</span>
+                    </div>
+
+                    <p class="skills__description">applying object-oriented programming principles to develop robust and scalable software solutions for diverse applications.</p>
+
+                    <div class="skills__bar">
+                        <div class="skills__percentage" style="width: 60%;">
+                            <span></span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skills__item">
+                    <div class="skills__titles">
+                        <h3 class="skills__name">MY Sql</h3>
+                        <span class="skills__no">85 %</span>
+                    </div>
+
+                    <p class="skills__description">adept at database management and query optimization for efficient data storage and retrieval in web applications.</p>
+
+                    <div class="skills__bar">
+                        <div class="skills__percentage" style="width: 85%;">
+                            <span></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--==================== PORTFOLIO ====================-->
+        <section class="works section" id="work">
+            <h2 class="section__title title-center" data-title="My portfolio">Recent Works</h2>
+
+            <div class="work__container container grid">
+                <div class="work__card">
+                    <img src="img/project-img-1.jpg" alt="" class="work__img" />
+
+                    <div class="work__details">
+                        <h3 class="work__title">Web Design</h3>
+                        <span class="work__description"></span>
+                    </div>
+                </div>
+
+                <!--<div class="work__card">
+                    <img src="assets/img/project-img-2.jpg" alt="" class="work__img" />
+
+                    <div class="work__details">
+                        <h3 class="work__title">Mobile Application Design</h3>
+                        <span class="work__description"></span>
+                    </div>
+                </div>-->
+
+                <!--<div class="work__card">
+                    <img src="assets/img/project-img-3.jpg" alt="" class="work__img" />
+
+                    <div class="work__details">
+                        <h3 class="work__title">photoshop</h3>
+                        <span class="work__description"></span>
+                    </div>
+                </div>-->
+
+                <div class="work__card">
+                    <img src="img/project-img-4.jpg" alt="" class="work__img" />
+
+                    <div class="work__details">
+                        <h3 class="work__title">UI/UX Design</h3>
+                        <span class="work__description"></span>
+                    </div>
+                </div>
+
+                <div class="work__card">
+                    <img src="img/project-img-5.jpg" alt="" class="work__img" />
+
+                    <div class="work__details">
+                        <h3 class="work__title">Web Developer</h3>
+                        <span class="work__description"></span>
+                    </div>
+                </div>
+
+                <!--<div class="work__card">
+                    <img src="assets/img/project-img-6.jpg.png" alt="" class="work__img" />
+
+                    <div class="work__details">
+                        <h3 class="work__title">Premiere Pro</h3>
+                        <span class="work__description"></span>
+                    </div>-->
+                </div>
+            </div>
+        </section>
+
+        <!--==================== TESTIMONIALS ====================-->
+        <!-- <section class="testimonials"></section> -->
+
+        <!--==================== CONTACT ====================-->
+        <section class="contact section" id="contact">
+            <h2 class="section__title title-center" data-title="GET IN TOUCH">Contact Me</h2>
+
+            <div class="contact__container container grid">
+                <div class="contact__details">
+                    <div class="contact__item">
+                        <i class="fa-solid  fa-phone contact__icon"></i>
+                        <div>
+                            <h3 class="contact__title">Call me</h3>
+                            <span class="contact__data">+91 8918328113</span>
+                        </div>
+                    </div>
+
+                    <div class="contact__item">
+                        <i class="fa-solid  fa-envelope contact__icon"></i>
+                        <div>
+                            <h3 class="contact__title">Email me</h3>
+                            <span class="contact__data">sekhmainulhassan.work@gmail.com</span>
+                        </div>
+                    </div>
+
+                    <div class="contact__item">
+                        <i class="fa-solid  fa-location-dot contact__icon"></i>
+                        <div>
+                            <h3 class="contact__title">Address</h3>
+                            <span class="contact__data">Muidhara, Uchalan, Khandaghosh, Purba Bardhaman, India</span>
+                        </div>
+                    </div>
+                </div>
+
+                <form class="contact__form" onsubmit="return stop();">
+                    <div class="form__group">
+                <input type="text" placeholder="Name" name="name" id="name" class="input__control" required/>
+              </label>
+                <input type="email" placeholder="Email" name="email" id="email" class="input__control" required/>
+              </label>
+                    </div>
+                <input type="text" placeholder="Subject" name="subject" id="subject" class="input__control" required/>
+              </label>
+                <textarea name="message" id="" cols="30" rows="10" id="message" class="input__control textarea" placeholder="Message"></textarea>
+              </label>
+
+                     <button class="btn contact__btn" onclick="sorry()">Send Message</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <!--==================== FOOTER ====================-->
+    <footer class="footer">
+        <div class="footer__container container">
+            <p class="footer__copyright">&copy; 2025 Sekh Mainul Hassan. All Rights Reserved</p>
+
+            <div class="footer__social-links">
+                <a href="https://github.com/suiicr07" class="footer__social-link">
+            <i class="fa-brands fa-github"></i>
+          </a>
+
+                <a href="https://www.instagram.com/sekh_mainul_hassan09/" class="footer__social-link">
+            <i class="fa-brands fa-instagram"></i>
+          </a>
+
+                <a href="https://www.facebook.com/skmoinul.hassan.39" class="footer__social-link">
+            <i class="fa-brands fa-square-facebook"></i>
+          </a>
+
+                <a href="https://www.linkedin.com/in/sekh-mainul-hassan-56a054377/" class="footer__social-link">
+            <i class="fa-brands fa-linkedin"></i>
+          </a>
+            </div>
+        </div>
+    </footer>
+    <script type="text/javascript" src="script.js"></script>
+</body>    
+</html>
